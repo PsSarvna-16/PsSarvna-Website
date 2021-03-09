@@ -1,0 +1,509 @@
+/*------------------------------------------------------------------------
+
+                        DEFAULT VALUES
+
+                Font                : Roboto Slab
+                
+                Persian Indigo      : #4F1271
+                    
+                Meteorite           : #4A4063
+
+                Blue Haze           : #C8C6D7
+
+                White               : #ffffff
+
+                Black               : #000000  
+
+------------------------------------------------------------------------*/
+:root{
+    
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 400px;
+    --breakpoint-md: 700px;
+    --breakpoint-lg: 900px;
+    --breakpoint-xl: 1200px
+    
+}
+
+html,
+body {
+
+    height: 100%;
+}
+
+body {
+
+    font-family: "Roboto slab";
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {
+    
+    outline: none;
+}
+
+/*------------------------- HOME ------------------------------------*/
+html{scroll-behavior:smooth}
+#home {
+
+    height: 100%;
+}
+
+#home-cover {
+
+    height: 100%;
+    background-image: url("../img/bg.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home-content-box {
+
+    width: 100%;
+    display: table;
+    height: 100%;
+}
+
+#home-content-box-inner {
+
+    height: 100%;
+    display: table-cell;
+    text-align: center;
+}
+
+#home-heading {
+
+    margin-top: 120px;
+    animation-delay: 0.3s;
+    animation-duration: 1.5s;
+}
+
+#home-heading h4 {
+
+    padding: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*------------------------- NAVIGATION ------------------------------------*/
+
+#google-search {
+
+    padding-top: 6px;
+    padding-right: 8px;
+    color: black;
+}
+
+.search-bar {
+
+    background-color: transparent;
+    margin: 4px 20px 0 0;
+    width: 90%;
+    border-style: hidden;
+    border-bottom-style: solid;
+    border-color: #4A4063;
+}
+
+.navbar-light {
+
+    background-color: #9A97AF;
+    opacity: 0.6;
+}
+
+.fixed-top {
+
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+}
+
+.progress-container {
+    
+    position: fixed;
+    top: 56px;
+    height: 4px;
+    width: 100%;
+    background-color: #ccc;
+    z-index: 1;
+}
+#progress-bar {
+    
+    height: 4px;
+    width: 0%;
+    z-index: 1;
+    background-color: #000000;
+}
+
+/*------------------------- title content box ------------------------------------*/
+
+.content-box {
+
+    padding: 80px 0 60px 0;
+    text-align: center;
+}
+
+.content-title h3 {
+
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content-box-underline {
+
+    width: 30px;
+    height: 5px;
+    border-radius: 15px; 
+    margin: 0 auto 40px auto;
+}
+
+/*------------------------- generic items (section) ------------------------------------*/
+
+.row {
+
+    width: 100%
+}
+
+.container {
+
+    margin: 0 auto 0 auto;
+}
+
+.content-item {
+
+    padding: 30px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.content-item-icon {
+
+    padding: 20px;
+}
+
+.content-item-icon a {
+
+    padding: 20px;
+    text-align: center;
+}
+
+.content-item-title h5 {
+
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/*------------------------- google items ------------------------------------*/
+
+.google-icon a {
+
+    color: #07a0c3;
+}
+
+.content-item:hover .google-icon a {
+
+    color: aqua;
+}
+
+.line-google {
+    
+    background-color: #07a0c3;
+}
+
+/*------------------------- social items ------------------------------------*/
+
+.social-icon a {
+
+    color: #1119B2;
+}
+
+.content-item:hover .social-icon a {
+
+    color: #666BFF;
+}
+
+.line-social {
+    
+    background-color: #020887;    
+}
+
+/*------------------------- banking items ------------------------------------*/
+
+.banking-icon a {
+
+    color: #11B26F;
+}
+
+.content-item:hover .banking-icon a {
+
+    color: #45E8A4;
+}
+
+#Banking {
+    
+    padding-top: 40px;
+    
+}
+.line-banking {
+    
+    background-color: #11B26F;    
+}
+
+/*-------------------------- OTHER title-content (generic) -----------------------------------*/
+
+.content-box-other {
+
+    padding: 60px 0 0px 0;
+    text-align: center;
+}
+
+.content-title-other h3 {
+
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.content-box-underline-other {
+
+    width: 30px;
+    height: 5px;
+    border-radius: 15px;
+    margin: 0 auto 10px auto;
+}
+
+/*-------------------------- OTHER item (generic) -----------------------------------*/
+
+.container-other {
+
+    margin: 0 auto 0 auto;
+}
+
+.content-item-other {
+
+    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.content-item-icon-other {
+
+    padding: 15px;
+}
+
+.content-item-icon-other a {
+
+    padding: 15px;
+    text-align: center;
+}
+
+.content-item-title-other h5 {
+
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/*-------------------------- OTHER item -----------------------------------*/
+
+.other-icon a {
+
+    color: #A211B2;
+}
+
+.content-item-other:hover .other-icon a {
+
+    color: #D544E5;
+}
+
+.line-other {
+    
+    background-color: #A211B2;
+}
+
+#About {
+
+    text-align: center;
+    opacity: 0.8;
+}
+
+.about-link {
+    
+    color: black;
+}
+
+/*-------------------------- Scroll-btn -----------------------------------*/
+
+#scroll-btn {
+    
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    color: #564D4C;
+    cursor: pointer;
+    z-index: 99;   
+}
+
+.Test-item{
+    
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+
+/*------------------------- generic items (section) ------------------------------------*/
+.row {
+
+    width: 100%
+}
+
+.container {
+
+    margin: 0 auto 0 auto;
+}
+
+.content-item {
+
+    padding: 20px 0 10px 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.content-item-icon {
+
+    padding: 10px;
+}
+
+.content-item-icon a {
+
+    padding: 10px;
+    text-align: center;
+}
+
+.content-item-title h5 {
+
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/*-------------------------- OTHER title-content (generic) -----------------------------------*/
+
+.content-box-other {
+
+    padding: 40px 0 0px 0;
+    text-align: center;
+}
+
+.content-title-other h3 {
+
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.content-box-underline-other {
+
+    width: 15px;
+    height: 3px;
+    border-radius: 15px;
+    margin: 0 auto 7px auto;
+}
+
+    
+/*-------------------------- OTHER item (generic) -----------------------------------*/
+
+.container-other {
+
+    margin: 0 auto 0 auto;
+}
+
+.content-item-other {
+
+    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.content-item-icon-other {
+
+    padding: 10px;
+}
+
+.content-item-icon-other a {
+
+    padding: 15px;
+    text-align: center;
+}
+
+.content-item-title-other h5 {
+
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#Banking {
+    
+    padding-top: 20px;
+    
+}
+
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+
+/*-------------------------- Other Devices -----------------------------------*/
+
+@media (max-width: 580px) {
+        
+    .fa-5x, .fa-10x, .fa-3x{
+        
+        font-size: 2em;
+    }
+        
+    .content-box {
+
+        padding: 40px 0 20px 0;
+        text-align: center;
+        padding-left: 25px;
+
+    }
+
+    .content-title h3 {
+
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .content-box-other {
+
+        padding: 60px 0px 20px 25px;
+        text-align: center;
+
+    }
+
+    .content-box-underline {
+
+        width: 15px;
+        height: 3px;
+        border-radius: 15px; 
+        margin: 0 auto 30px auto;
+    }
+    .nav-item {
+
+        text-align: center;
+
+    }
+}
+
+/*-----------------------------------------------------------------------------------*/
