@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+
+    <head>
+        <!--required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" >
+        <meta name="viewport" content="width=device-width" initial="scale1" >
+        
+        <!--Title-->
+        <title>Ps_Sarvna</title>
+                
+        <!-- fa-icon -->
+        <link rel="stylesheet" href="css/font-awesome/css/all.min.css" >        
+        
+        <!-- Icon --> 
+        <link rel="shortcut icon" href="img/icon.ico" > 
+        
+        <!-- Fonts/Roboto slab -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+        
+        <!-- Animate -->
+        <link rel="stylesheet" href="css/animate/animate.css">
+        
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="css/style.css" >
+        
+    </head>
+
+    <body>
+        
+        <header>
+        
+           <nav class="navbar navbar-expand-lg navbar-light fixed-top animated fadeInDown">
+
+                <a class="navbar-brand" id="logo" style="cursor: pointer" onclick="test()" href="#">PsSarvna</a>
+
+                <button id="toggle-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblenavbar">
+                     <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="collapsiblenavbar" class="collapse navbar-collapse">
+
+                     <ul class="navbar-nav ml-auto">
+                         
+                         <li class="nav-item" style="display: inline-flex">
+                             <a id="google-search" href="https://www.google.co.in" target="_blank" style="display: inline">
+                                 <i class="fab fa-google"></i>
+                             </a>
+                             <form class="nav-item " method="get" target="_blank" action="http://www.google.com/search" autocomplete="off">
+                                 <input onchange="timing()" class="search-bar" type="text" placeholder="  Google Search..." value="" size="31" name="q">
+                             </form>
+                         </li>
+                         <li class="nav-item active"><a class="nav-link" href="#" onclick="collbutton()">HOME</a></li>
+                         <li class="nav-item"><a class="nav-link" href="#Google" onclick="collbutton()">GOOGLE</a></li>
+                         <li class="nav-item"><a class="nav-link" href="#Social" onclick="collbutton()">SOCIAL</a></li>
+                         <li class="nav-item"><a class="nav-link" href="#Banking" onclick="collbutton()">BANKING</a></li>
+                         <li class="nav-item"><a class="nav-link" href="#Others" onclick="collbutton()">OTHERS</a></li>
+                         <li class="nav-item"><a class="nav-link" href="#About" onclick="collbutton()">ABOUT</a></li>
+
+                    </ul>
+
+                </div>
+               
+            </nav>
+                            
+            <div class="progress-container" id="progress-bar"></div>
+            
+        </header>
+        
+        <section id="home">
+            
+            <div id="home-cover">
+                
+                <div id="home-content-box">
+                    
+                    <div id="home-content-box-inner">
+                        
+                        <div id="home-heading" class="animated jackInTheBox">
+                           
+                            <h4>The Ps_Sarvna Homepage</h4>
+                            
+                        </div>
+                        
+                    </div>
+                
+                </div>
+            
+            </div>
+                
+        </section>
+        
+        <section id="Google">
+            
+            <div class="content-box" id="Google">
+                <div class="content-title wow bounce" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <h3> GOOGLE </h3>
+                    <div class="content-box-underline line-google"></div>
+                </div>
+                <div class="container wow zoomIn"  data-wow-duration="1s" data-wow-delay="0.7s">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-4">
+                            <div class="content-item">
+                                <div class="content-item-icon google-icon">
+                                    <a href="https://myaccount.google.com/" target="_blank"><i class="fab fa-google fa-5x icon"></i></a>
+                                </div>
+                                 <div class="content-item-title"><h5>GOOGLE</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-4">
+                            <div class="content-item">
+                                <div class="content-item-icon google-icon">
+                                    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="far fa-envelope fa-5x icon"></i></a>
+                                </div>
+                                <div class="content-item-title"><h5>MAIL</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-4">
+                            <div class="content-item">
+                                <div class="content-item-icon google-icon">
+                                    <a href="https://drive.google.com/drive/u/0/my-drive" target="_blank"><i class="fab fa-google-drive fa-5x icon"></i></a>
+                                </div>
+                                <div class="content-item-title"><h5>DRIVE</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-4">
+                            <div class="content-item">
+                                <div class="content-item-icon google-icon">
+                                    <a href="https://translate.google.co.in/" target="_blank"><i class="fas fa-language fa-5x icon"></i></a>
+                                </div>
+                                 <div class="content-item-title"><h5>TRANSLATE</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-4">
+                            <div class="content-item">
+                                <div class="content-item-icon google-icon">
+                                    <a href="https://keep.google.com/u/0/" target="_blank"><i class="far fa-sticky-note fa-5x icon"></i></a>    
+                                </div>
+                                <div class="content-item-title"><h5>KEEP</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-4">
+                            <div class="content-item">
+                                <div class="content-item-icon google-icon">
+                                    <a href="https://contacts.google.com/" target="_blank"><i class="far fa-address-book fa-5x icon"></i></a>
+                                </div>
+                                <div class="content-item-title"><h5>CONTACTS</h5></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+        <section id="Social">
+            
+            <div class="content-box">
+                <div class="content-title wow bounce" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <h3> SOCIAL </h3>
+                    <div class="content-box-underline line-social"></div>
+                </div>
+                <div class="container wow zoomIn"  data-wow-duration="1s" data-wow-delay="0.7s">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3 col-4">
+                            <div class="content-item ">
+                                <div class="content-item-icon social-icon">
+                                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-5x icon"></i></a>
+                                </div>
+                                 <div class="content-item-title"><h5>YOUTUBE</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-4">
+                            <div class="content-item">
+                                <div class="content-item-icon social-icon">
+                                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-5x icon"></i></a>
+                                </div>
+                                <div class="content-item-title"><h5>FACEBOOK</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-4">
+                            <div class="content-item">
+                                <div class="content-item-icon social-icon">
+                                    <a href="https://www.facebook.com/messages/t/100015179117295" target="_blank">
+                                        <i class="fab fa-facebook-messenger fa-5x icon"></i></a>
+                                </div>
+                                <div class="content-item-title"><h5>MESSENGER</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-4">
+                            <div class="content-item">
+                                <div class="content-item-icon social-icon">
+                                    <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp fa-5x icon"></i></a>    
+                                </div>
+                                <div class="content-item-title"><h5>WHATSAPP</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-4">
+                            <div class="content-item">
+                                <div class="content-item-icon social-icon">
+                                    <a href="https://www.quora.com/" target="_blank"><i class="fab fa-quora fa-5x icon"></i></a>
+                                </div>
+                                 <div class="content-item-title"><h5>QUORA</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-4">
+                            <div class="content-item">
+                                <div class="content-item-icon social-icon">
+                                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-5x icon"></i></a>
+                                </div>
+                                <div class="content-item-title"><h5>INSTAGRAM</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-6">
+                            <div class="content-item">
+                                <div class="content-item-icon social-icon">
+                                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-5x icon"></i></a>
+                                </div>
+                                <div class="content-item-title"><h5>TWITTER</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-6">
+                            <div class="content-item">
+                                <div class="content-item-icon social-icon">
+                                    <a href="https://in.pinterest.com/" target="_blank"><i class="fab fa-pinterest fa-5x icon"></i></a>
+                                </div>
+                                <div class="content-item-title"><h5>PINTEREST</h5></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+   
+        <section id="Banking">
+             <div class="content-box">
+                <div class="content-title wow bounce" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <h3> BANKING </h3>
+                    <div class="content-box-underline line-banking"></div>
+                </div>
+                <div class="container wow zoomIn"  data-wow-duration="1s" data-wow-delay="0.7s">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-4">
+                            <div class="content-item">
+                                <div class="content-item-icon banking-icon">
+                                    <a href="https://retail.onlinesbi.com/retail/login.htm" target="_blank"><i class="fab fa-osi fa-10x"></i></a>
+                                </div>
+                                 <div class="content-item-title"><h5>SBI</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-4">
+                            <div class="content-item banking-icon">
+                                <div class="content-item-icon banking-icon">
+                                    <a href="https://www.iobnet.co.in/ibanking/login.do" target="_blank"><i class="fab fa-squarespace fa-10x"></i></a>
+                                </div>
+                                <div class="content-item-title"><h5>IOB</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-4">
+                            <div class="content-item">
+                                <div class="content-item-icon banking-icon">
+                                    <a href="https://paytm.com/" target="_blank"><i class="fab fa-paypal fa-10x"></i></a>
+                                </div>
+                                <div class="content-item-title"><h5>PAYTM</h5></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+       
+        <section id="Others">
+             <div class="content-box-other">
+                                  
+                <div class="content-title-other wow bounce" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <h3> BOOKING </h3>
+                    <div class="content-box-underline-other line-other"></div>
+                </div>
+                <div class="container-other wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.7s">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-4">
+                            <div class="content-item-other ">
+                                <div class="content-item-icon-other other-icon">
+                                    <a href="https://www.udchalo.com/" target="_blank"><i class="fas fa-plane-departure fa-3x"></i></a>
+                                </div>
+                                 <div class="content-item-title-other"><h5>UDCHALO</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-4">
+                            <div class="content-item-other">
+                                <div class="content-item-icon-other other-icon">
+                                    <a href="https://www.redbus.in/" target="_blank"><i class="fas fa-bus fa-3x"></i></a>
+                                </div>
+                                <div class="content-item-title-other"><h5>REDBUS</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-4">
+                            <div class="content-item-other">
+                                <div class="content-item-icon-other other-icon">
+                                    <a href="https://www.irctc.co.in/nget/train-search"  target="_blank"><i class="fas fa-train fa-3x"></i></a>
+                                </div>
+                                <div class="content-item-title-other"><h5>IRCTC</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-6">
+                            <div class="content-item-other">
+                                <div class="content-item-icon-other other-icon">
+                                    <a href="https://in.bookmyshow.com/madurai" target="_blank"><i class="far fa-play-circle fa-3x"></i></a>
+                                </div>
+                                <div class="content-item-title-other"><h5>BOOKMYSHOW</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-6">
+                            <div class="content-item-other">
+                                <div class="content-item-icon-other other-icon">
+                                    <a href="https://www.ticketnew.com/Movie-Ticket-Online-booking/C/Madurai" target="_blank"><i class="fas fa-ticket-alt fa-3x"></i></a>
+                                </div>
+                                <div class="content-item-title-other"><h5>TICKETNEW</h5></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div class="content-title-other wow bounce" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <h3> SHOPPING </h3>
+                    <div class="content-box-underline-other line-other"></div>
+                </div>
+                <div class="container-other wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.7s">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-4">
+                            <div class="content-item-other ">
+                                <div class="content-item-icon-other other-icon">
+                                    <a href="https://www.flipkart.com/" target="_blank"><i class="fab fa-foursquare fa-3x"></i></a>
+                                </div>
+                                 <div class="content-item-title-other"><h5>FLIPKART</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-4">
+                            <div class="content-item-other">
+                                <div class="content-item-icon-other other-icon">
+                                    <a href="https://www.amazon.in/" target="_blank"><i class="fab fa-amazon fa-3x"></i></a>
+                                </div>
+                                <div class="content-item-title-other"><h5>AMAZON</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-4">
+                            <div class="content-item-other">
+                                <div class="content-item-icon-other other-icon">
+                                    <a href="https://www.cubelelo.com/index.php?route=account/account" target="_blank"><i class="fas fa-cubes fa-3x"></i></a>
+                                </div>
+                                <div class="content-item-title-other"><h5>CUBELELO</h5></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-title-other wow bounce" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <h3> BILL PAYMENT </h3>
+                    <div class="content-box-underline-other line-other"></div>
+                </div>
+                <div class="container-other wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.7s">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-4">
+                            <div class="content-item-other ">
+                                <div class="content-item-icon-other other-icon">
+                                    <a href="https://www.airtel.in/" target="_blank"><i class="fas fa-sim-card fa-3x"></i></a>
+                                </div>
+                                 <div class="content-item-title-other"><h5>AIRTEL</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-4">
+                            <div class="content-item-other">
+                                <div class="content-item-icon-other other-icon">
+                                    <a href="https://www.tnebnet.org/awp/login" target="_blank"><i class="fas fa-bolt fa-3x"></i></a>
+                                </div>
+                                <div class="content-item-title-other"><h5>TNEB</h5></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-4">
+                            <div class="content-item-other">
+                                <div class="content-item-icon-other other-icon">
+                                    <a href="https://www.mytatasky.com/web/portal/homeunauth" target="_blank"><i class="fas fa-tv fa-3x"></i></a>
+                                </div>
+                                <div class="content-item-title-other"><h5>TATASKY</h5></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+        
+        <section id="About">
+            <div>
+                <h6 class="about-link">pssarvna.kumr@gmail.com</h6>
+                <div>
+                    <h6 class="about-link" >
+                    <a href="http://www.facebook.com/PsSarvna02" target="_blank"><i class="fab fa-facebook-f"></i>acebook </a>|
+                    <a href="http://www.instagram.com/Ps_Sarvna" target="_blank"><i class="fab fa-instagram"></i> Instagram </a>|
+                    <a href="https://twitter.com/pssarvna" target="_blank"><i class="fab fa-twitter"></i> Twitter </a>|
+                    <a href="https://www.quora.com/profile/Ps-Sarvna" target="_blank"><i class="fab fa-quora"></i>uora </a>|
+                    </h6>
+                </div>
+            </div>
+        </section>
+        
+            
+        <!-- Scroll to Top -->
+        <div id="scroll-btn"><i onclick="scrolltotop()" class="fas fa-chevron-up fa-2x"></i></div>
+      
+        <!-- jquery -->
+        <script src="js/jquery.js"></script>
+        
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.js"></script>
+        
+        <!-- Wow.js -->
+        <script src="js/wow.min.js"></script>
+        
+        <!-- javascript -->
+        <script src="js/custom.js"></script>
+        
+    </body>
+
+</html>
